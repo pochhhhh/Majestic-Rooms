@@ -1,0 +1,22 @@
+img{
+
+height:100%;
+width:100%;
+
+}
+
+#home-booking-form div{
+	
+background:orange;
+
+
+
+}
+
+.grid-container{
+	
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+	
+}
