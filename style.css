@@ -77,8 +77,17 @@ display:block;
 	
 }
 
-#section-a div button{
+#section-a div{
+
+
+background:blue;
+height:100px;
+width:100%;
+
 	
+}
+#section-a div button{
+
 
 
 
