@@ -30,7 +30,8 @@ button{
 background:#D99813;
 color:white !important;
 border:none;
-height:60px;
+height:40px;
+position: relative;
 	
 	
 }
@@ -68,25 +69,35 @@ display:grid;
 	
 }
 
+.card{
+
+border: 1px solid grey;
+margin-left:15px;
+margin-right:15px;
+margin-top:70px;
+
+
+
+}
+
 
 .card-ul{
 	
 	padding: 0;
 	list-style:none;
+
 	
 }
 
-li img{
-	
-	margin-top:10px;
-	
-	
-}
+
 
 .book-button{
 	
 	margin: 0 auto;
 	display: block;
+	width:80vw;
+	margin-bottom:20px;
+	margin-left:8vw;
 	
 	
 }
@@ -95,7 +106,7 @@ li img{
 
 
 position:relative;
-width:200px;
+width:auto;
 margin: 0 auto;
 
 	
@@ -105,11 +116,58 @@ margin: 0 auto;
 .sign-buttons button{
 	
 position:relative;
-left:40px;
+left:35vw;
+width:auto;
 
 	
 	
 }
+
+
+
+.card-content{
+
+
+
+
+}
+
+.card-content h4{
+
+position: relative;
+left:30px;
+
+
+}
+
+.card-content ul{
+
+margin-top:30px;
+
+}
+
+.package-details{
+
+
+display:grid;
+grid-template-columns: 50vw 50vw;
+grid-template-rows: 50px;
+
+}
+
+
+.package-title{
+
+
+
+}
+
+.price{
+
+
+
+}
+
 
 #section-c button{
 	
