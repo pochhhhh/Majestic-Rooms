@@ -13,18 +13,24 @@ width:100%;
 
 }
 
+#section-a{
+	background: #E6E6E6;
+	
+}
+
 h1{
 	
 	text-align:center;
-
+	font-family: 'Noticia Text', serif !important;
+	font-size:40px !important;
 }
 
 button{
 	
-background:orange;
-color:white;
+background:#D99813;
+color:white !important;
 border:none;
-
+height:60px;
 	
 	
 }
@@ -34,8 +40,10 @@ border:none;
 
 
 width:90%;
-margin-top:10px;
+max-width:400px;
 margin: 0 auto;
+position:relative;
+top:40px;
 display:block;
 
 }
@@ -56,15 +64,22 @@ display:block;
 
 .grid-container{
 	
-	display:grid;
-
+display:grid;
 	
 }
+
 
 .card-ul{
 	
 	padding: 0;
 	list-style:none;
+	
+}
+
+li img{
+	
+	margin-top:10px;
+	
 	
 }
 
@@ -76,19 +91,37 @@ display:block;
 	
 }
 
-#section-a div{
+.sign-buttons{
 
 
-background:blue;
-height:100px;
-width:100%;
-
-	
-}
-#section-a div button{
-
-
-
+position:relative;
+width:200px;
+margin: 0 auto;
 
 	
+	
 }
+
+.sign-buttons button{
+	
+position:relative;
+left:40px;
+
+	
+	
+}
+
+#section-c button{
+	
+
+margin: 0 auto;
+display:block;
+	
+}
+
+
+
+
+
+
+
