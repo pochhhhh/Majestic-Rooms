@@ -53,6 +53,15 @@ display:block;
 	
 	height:60px;
 	margin-top:20px;
+	margin-left:15px;
+	margin-right:15px;
+
+	
+}
+
+hr{
+
+border-color: #E5E5E5!important;
 
 	
 }
@@ -97,7 +106,7 @@ margin-top:70px;
 	display: block;
 	width:80vw;
 	margin-bottom:20px;
-	margin-left:8vw;
+
 	
 	
 }
@@ -105,9 +114,10 @@ margin-top:70px;
 .sign-buttons{
 
 
-position:relative;
-width:auto;
-margin: 0 auto;
+display:grid;
+grid-template-columns:1fr 1fr;
+
+
 
 	
 	
@@ -115,11 +125,9 @@ margin: 0 auto;
 
 .sign-buttons button{
 	
-position:relative;
-left:35vw;
-width:auto;
+width:130px;
+margin: 0 auto;
 
-	
 	
 }
 
@@ -176,6 +184,35 @@ margin: 0 auto;
 display:block;
 	
 }
+
+section h4{
+	
+margin-left:15px;
+	
+	
+}
+section p{
+	
+margin-left:15px;
+	
+	
+}
+
+footer h2{
+	
+	margin-left: 15px;
+	
+}
+
+footer p{
+	
+	margin-left: 15px;
+	
+}
+
+
+
+
 
 
 
