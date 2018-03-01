@@ -166,20 +166,41 @@ grid-template-rows: 50px;
 
 .package-title{
 
+font-family: 'Rokkitt', serif;
+font-size:17px;
+color: #D99813;
+
 
 
 }
 
+
 .price{
 
+margin: 0 auto;	
+color: #D99813;
 
+	
+}
 
+.price h3{
+	
+	margin: 0 auto;
+	font-weight:bold;
+	
+}
+
+.price p{
+	
+	margin: 0 auto;
+	color:black;
+	font-size:10px;
+	
 }
 
 
 #section-c button{
 	
-
 margin: 0 auto;
 display:block;
 	
