@@ -1,9 +1,9 @@
 body{
-	
+
 max-width:100vw;
 margin: 0 auto;
 
-	
+
 }
 
 img{
@@ -15,25 +15,25 @@ width:100%;
 
 #section-a{
 	background: #E6E6E6;
-	
+
 }
 
 h1{
-	
+
 	text-align:center;
 	font-family: 'Noticia Text', serif !important;
 	font-size:40px !important;
 }
 
 button{
-	
+
 background:#D99813;
 color:white !important;
 border:none;
 height:40px;
 
-	
-	
+
+
 }
 
 
@@ -50,20 +50,20 @@ display:block;
 }
 
 #home-booking-form input{
-	
+
 	height:60px;
 	margin-top:20px;
 	margin-left:15px;
 	margin-right:15px;
 
-	
+
 }
 
 hr{
 
 border-color: #E5E5E5!important;
 
-	
+
 }
 
 
@@ -73,9 +73,9 @@ border-color: #E5E5E5!important;
 
 
 .grid-container{
-	
+
 display:grid;
-	
+
 }
 
 .card{
@@ -91,24 +91,24 @@ margin-top:70px;
 
 
 .card-ul{
-	
+
 	padding: 0;
 	list-style:none;
 
-	
+
 }
 
 
 
 .book-button{
-	
+
 	margin: 0 auto;
 	display: block;
 	width:80vw;
 	margin-bottom:20px;
 
-	
-	
+
+
 }
 
 .sign-buttons{
@@ -119,16 +119,16 @@ grid-template-columns:1fr 1fr;
 
 
 
-	
-	
+
+
 }
 
 .sign-buttons button{
-	
+
 width:130px;
 margin: 0 auto;
 
-	
+
 }
 
 
@@ -177,96 +177,96 @@ color: #D99813;
 
 .price{
 
-margin: 0 auto;	
+margin: 0 auto;
 color: #D99813;
 
-	
+
 }
 
 .price h3{
-	
+
 	margin: 0 auto;
 	font-weight:bold;
 	margin-right:10px;
-	
+
 }
 
 .price p{
-	
+
 	margin: 0 auto;
 	color:black;
 	font-size:10px;
-	
+
 }
 
 
 #section-c button{
-	
+
 margin: 0 auto;
 display:block;
-	
+
 }
 
 section h4{
-	
+
 margin-left:15px;
-	
-	
+
+
 }
 section p{
-	
+
 margin-left:15px;
-	
-	
+
+
 }
 
 footer{
-	
+
 background: #2B2B2B;
-	
-	
+
+
 }
 
 footer hr{
-	
+
 width:20vw;
 margin-left:15px;
 border-color: #D99813 !important;
 
 
-	
+
 }
 
 footer h3{
-	
+
 	margin-left: 15px;
 	color:white;
 	position:relative;
 	top:10px;
 	font-size:17px;
 	font-family: 'Montserrat', sans-serif;
-		
+
 }
 
 footer h5{
-	
+
 	margin-left: 15px;
 	color:white;
 	font-family: 'Noticia Text', serif;
-	
+
 }
 footer p{
-	
+
 	margin-left: 15px;
 	color:grey;
 	font-family: 'Montserrat', sans-serif;
-	
+
 }
 
 footer a{
-	
-color:#D99813;		
-	
+
+color:#D99813;
+
 }
 
 footer div{
@@ -338,56 +338,48 @@ top:10px;
 }
 
 .fa-2x:hover{
-	
+
 	color:#D99813;
-	
+
 }
 
 .copyright{
-	
+
 margin:0;
 background: #222222;
 
 }
 
 .copyright p{
-	
+
 color:white;
 font-size:12px;
 position:relative;
 top:8px;
-	
+
 }
 
 .booking-summary-toggle{
-	
+
 display:grid;
 background:lime;
-grid-template-columns:3fr 1fr;	
+grid-template-columns:6fr 1fr;	
 margin-top:30px;
-	
+
 }
 
 .booking-summary-details{
-	
+
 display:grid;
 background:yellow;
 grid-template-columns:1fr 1fr;
-	
-	
+
+
 }
 
 .booking-tc{
 
 text-align:center;
 color:black !important;
-	
+
 }
-
-
-
-
-
-
-
-
