@@ -313,9 +313,6 @@ margin-top:10px;
 
 width:100%;
 
-
-
-
 }
 
 
@@ -343,10 +340,6 @@ top:10px;
 .fa-2x:hover{
 	
 	color:#D99813;
-
-
-
-	
 	
 }
 
@@ -354,7 +347,6 @@ top:10px;
 	
 margin:0;
 background: #222222;
-
 
 }
 
@@ -364,9 +356,31 @@ color:white;
 font-size:12px;
 position:relative;
 top:8px;
+	
+}
 
+.booking-summary-toggle{
+	
+display:grid;
+background:lime;
+grid-template-columns:3fr 1fr;	
+margin-top:30px;
+	
+}
 
+.booking-summary-details{
+	
+display:grid;
+background:yellow;
+grid-template-columns:1fr 1fr;
+	
+	
+}
 
+.booking-tc{
+
+text-align:center;
+color:black !important;
 	
 }
 
