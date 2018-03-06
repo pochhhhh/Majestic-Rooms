@@ -359,10 +359,61 @@ top:8px;
 
 }
 
+#room-list{
+
+display:grid;
+grid-template-columns: 1fr;	
+	
+}
+
+.room-option{
+	
+background:#DDDDDD;
+margin: 0 15px 0 15px;
+height:450px;
+max-height:450px;
+margin-top:20px;
+	
+	
+}
+
+.room-option-image{
+	
+width:100%;
+
+	
+}
+
+#room-list h2{
+	
+text-align:center;
+font-size:20px;
+position:relative;
+bottom:5px;
+	
+}
+
+#booking-summary{
+	
+background:#3C3B3B;
+
+}
+
+#booking-summary h2{
+
+color:white;
+font-size:18px;
+text-align:center;
+position:relative;
+top:15px;
+
+	
+}
+
 .booking-summary-toggle{
 
 display:grid;
-background:lime;
+background:#B3B3B3;
 grid-template-columns:6fr 1fr;	
 margin-top:30px;
 
@@ -371,7 +422,7 @@ margin-top:30px;
 .booking-summary-details{
 
 display:grid;
-background:yellow;
+background:#E6E6E6;
 grid-template-columns:1fr 1fr;
 
 
@@ -380,6 +431,50 @@ grid-template-columns:1fr 1fr;
 .booking-tc{
 
 text-align:center;
-color:black !important;
+color:white !important;
+position:relative;
+bottom:5px;
 
+}
+
+#booking-step-checker{
+	
+background:#F2F2F2;
+
+}
+
+.booking-step-checker-panel{
+	
+margin: 0 auto;
+max-width:500px;
+display:grid;
+height:110px;
+grid-template-columns:repeat(4, 1fr);
+	
+}
+
+.booking-step-icon{
+	
+margin: 0 auto;	
+height:50px;
+width:50px;
+background:white;
+position:relative;
+top:10px;
+border-radius:50%;
+border:5px solid black;
+
+	
+}
+
+.booking-step-checker-panel p{
+	
+font-size: 12px;
+position:relative;
+top:10px;
+right:6px;
+text-align:center;
+
+
+	
 }
