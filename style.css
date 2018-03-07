@@ -37,7 +37,7 @@ height:40px;
 }
 
 
-#home-booking-form div button{
+#home-booking-form button{
 
 
 width:90%;
@@ -487,3 +487,34 @@ text-align:center;
 
 	
 }
+
+
+/* Media queries */
+
+
+@media(min-width:800px){
+
+
+#home-booking-form div{
+	
+background:lime;
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+#home-booking-form input{
+	
+	position:relative;
+	bottom:10px;
+	
+	
+	
+}
+
+
+
+
+
+
