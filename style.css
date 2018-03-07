@@ -14,8 +14,17 @@ width:100%;
 }
 
 #section-a{
-	background: #E6E6E6;
+background: #E6E6E6;
+min-height:500px;
+max-height:100vh;
 
+}
+
+#section-a ul{
+	
+	
+font-size:13px;	
+	
 }
 
 h1{
@@ -44,8 +53,9 @@ width:90%;
 max-width:400px;
 margin: 0 auto;
 position:relative;
-top:40px;
+top:10px;
 display:block;
+
 
 }
 
@@ -66,6 +76,11 @@ border-color: #E5E5E5!important;
 
 }
 
+#section-b{
+position:relative;
+top:100px;	
+	
+}
 
 
 
@@ -116,9 +131,8 @@ margin-top:70px;
 
 display:grid;
 grid-template-columns:1fr 1fr;
-
-
-
+margin: 0 auto;
+max-width:300px;
 
 
 }
@@ -130,6 +144,8 @@ margin: 0 auto;
 
 
 }
+
+
 
 
 
@@ -488,6 +504,32 @@ text-align:center;
 	
 }
 
+.section-a-img {
+
+height:250px;
+width:250px;
+margin: 0 auto;
+
+
+}
+
+#section-a img{
+	
+	margin-top:10px;
+	
+	
+	
+}
+
+#section-a ul{
+	
+	margin-top:20px;
+	
+}
+
+
+	
+
 
 /* Media queries */
 
@@ -497,7 +539,6 @@ text-align:center;
 
 #home-booking-form div{
 	
-background:lime;
 display:grid;
 grid-template-columns: repeat(3, 1fr);
 
@@ -511,6 +552,44 @@ grid-template-columns: repeat(3, 1fr);
 	
 	
 	
+}
+
+#section-a{
+margin: 0 auto;
+min-height:300px;
+max-width:80vw;
+max-height:70vh;
+display:grid;
+grid-template-columns:1fr 2fr;
+	
+}
+.section-a-img {
+
+height:170px;
+width:170px;
+margin: 0 auto;
+
+
+}
+
+.sign-buttons{
+
+position:relative;
+left:42%;
+
+}
+
+.sign-buttons button{
+	
+	margin:5px;
+	
+	
+}
+
+
+
+
+
 }
 
 
