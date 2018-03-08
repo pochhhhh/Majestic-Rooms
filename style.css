@@ -114,7 +114,7 @@ display:grid;
 
 .card{
 
-border: 1px solid grey;
+border: 1px solid #E6E6E6;
 margin-left:15px;
 margin-right:15px;
 margin-top:70px;
@@ -556,6 +556,59 @@ margin-top:10px;
 		top:150px;
 		
 	}
+	
+	.star-rating{
+		
+	height:50px;
+width:150px;
+margin: 0 auto;	
+display:grid;
+grid-template-columns:repeat(5, 1fr);
+
+}
+
+.fa-star{
+
+color:yellow;
+position:relative;
+left:-5px; !important;
+
+
+	
+}
+
+.fa-star:hover{
+	
+color:yellow;
+}
+
+#section-d{
+	
+background:black;
+	
+}
+
+#section-d h1{
+	
+	color:white;
+	
+}
+
+#section-d button{
+	
+	max-width:120px;
+	
+}
+
+#reviews{
+	
+color:white;	
+	
+}
+
+
+
+
 
 
 /* Media queries */
@@ -571,9 +624,15 @@ margin-top:10px;
 	
 	section{
 		
-		max-width:80vw;
+		max-width:85vw;
 		margin: 0 auto;
 		
+		
+	}
+	
+	#slideshow-gallery{
+		
+	max-width:100vw;	
 		
 	}
 	
@@ -661,6 +720,17 @@ width:70%;
 .price p{
 	
 	text-align:center;
+}
+
+
+
+#section-d{
+	
+
+	height:600px;
+max-width:100vw;
+	
+	
 }
 
 
