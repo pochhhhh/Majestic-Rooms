@@ -15,6 +15,16 @@ width:100%;
 
 }
 
+.navbar-left img{
+
+background:white;
+height:60px;
+width:150px;
+border-radius:25px;
+
+	
+}
+
 section{
 
 position:relative;
@@ -60,6 +70,12 @@ height:40px;
 
 
 
+}
+
+button:hover{
+	
+background:rgba(254, 189, 27, 1);
+	
 }
 
 
@@ -571,7 +587,8 @@ grid-template-columns:repeat(5, 1fr);
 
 color:yellow;
 position:relative;
-left:-5px; !important;
+left:5px; !important;
+top:-5px !important;
 
 
 	
@@ -582,15 +599,29 @@ left:-5px; !important;
 color:yellow;
 }
 
+
 #section-d{
 	
-background:black;
 	
+background-image: url("./images/review-background.jpg");
+background-size: 100% 100%;
+
+
 }
+
+.opacity-layer{
+	
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	height:100%;
+	width:100%;
+
+}
+
 
 #section-d h1{
 	
-	color:white;
+	color:rgba(255, 255, 255, 1);
 	
 }
 
@@ -602,7 +633,12 @@ background:black;
 
 #reviews{
 	
-color:white;	
+color:white;
+text-shadow: 1px 1px black;
+max-width:80%;
+margin: 0 auto;
+text-align:center;
+
 	
 }
 
@@ -614,7 +650,7 @@ color:white;
 /* Media queries */
 
 
-@media(min-width:800px){
+@media(min-width:760px){
 	
 	body{
 		
@@ -624,11 +660,21 @@ color:white;
 	
 	section{
 		
-		max-width:85vw;
+		max-width:90vw;
 		margin: 0 auto;
 		
 		
 	}
+	
+	.navbar-left img{
+	
+	height:100px;
+width:240px;
+position:relative;
+left:50px;
+	
+}
+
 	
 	#slideshow-gallery{
 		
@@ -722,6 +768,27 @@ width:70%;
 	text-align:center;
 }
 
+#section-c{
+	
+display:grid;
+margin-bottom:50px;
+
+
+	
+}
+
+#section-c h4{
+	
+color:#D99813;	
+	
+}
+
+#section-c button{
+	
+margin-left:10px;
+width:150px;
+	
+}
 
 
 #section-d{
@@ -734,6 +801,22 @@ max-width:100vw;
 }
 
 
+
+}
+
+
+
+
+
+@media(min-width:1024px){
+
+#section-c{
+	
+display:grid;
+background:yellow;
+grid-template-columns:2fr 1fr;	
+	
+}
 
 }
 
