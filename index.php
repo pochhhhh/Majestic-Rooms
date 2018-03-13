@@ -8,7 +8,7 @@
 <title>Majestic Rooms</title>
 
 
-<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="./style.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Noticia+Text" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -31,10 +31,60 @@
 
 <!-- Header showcase -->
 
-<?php require("header.php"); ?>
 
+<header>
 
-<h1>Carrying on work from the office 05/03</h1>
+<section id="navbar">
+	
+	<!-- Insert Bootstrap navbar here -->
+	
+	
+	
+	<nav class="navbar navbar-fixed-top navbar-inverse">
+	
+	<div class="container-fluid">
+	
+	<div class="navbar-header">
+	
+
+	
+	<a href="#" class="navbar-left"><img src="./images/logo.png"></a>
+	
+
+	
+	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+	
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	
+	</button>
+
+	</div>
+	
+	<div class="collapse navbar-collapse" id="menu">
+	
+	<ul class="nav navbar-nav navbar-right">
+	
+	<li><a href="#">Test</a></li>
+	<li><a href="#">Test</a></li>
+	<li><a href="#">Test</a></li>
+	
+	</ul>
+	
+	</div>
+	
+	</div>
+	
+	</nav>
+	
+	
+	
+</section>
+
+</header>
+
+<h1>Carrying on work from the office 12/03</h1>
 
 
 
@@ -45,7 +95,7 @@
 
 </section>
 
-</header>
+
 
 
 
@@ -58,28 +108,39 @@
 <section id="home-booking-form">
 	
 	<div class="grid-container">
+
 	
 <input class="grid-item" type="date" name="checkin">
 <input class="grid-item" type="date" name="checkout">
 <input class="grid-item" name="code">
 
-<button type="button">BOOK A ROOM</button>
+
+
+
 
 </div>
+
+<button type="button">BOOK A ROOM</button>
 
 <hr>
 
 </section>	
 
+<h1 class="be-a-majestic-member">BE A MAJESTIC MEMBER</h1>
+
 <hr>
+
+
 
 <section id="section-a"> <!-- BE A MAJESTIC MEMBER -->
 	
-<h1>BE A MAJESTIC MEMBER</h1>
 
-<hr>
+<div class="section-a-img">
 
-<div class="box"></div>
+<img src="./images/member.jpeg">
+
+</div>
+
 
 <ul>
 	
@@ -91,6 +152,8 @@
 
 
 </ul>
+
+
 
 
 <div class="sign-buttons">
@@ -307,34 +370,83 @@
 </ul>
 
 
+
+
 </section>
 
 <section id="section-c"><!-- THE MAJESTIC EXPERIENCE -->
 	
+<h1>THE MAJESTIC EXPERIENCE</h1>
 
 
+<div class="section-c-grids">
+
+<div class="section-c-1">
 
 <h4>
 Magnificent Golden Sunset of the Manila Bay</h4>
 
-<p>Majestic Hotel has a variety of restaurants and bars specializing in different cuisines and diners are sure to have a remarkable dining experience. Function rooms are also available for memorable weddings and successful corporate events. Swimming pool and outdoor whirlpool, tennis court, Health Club and Spa, LifeSpan Reflexology and gym facilities are perfect for recreational and fitness activities.
+<p>Majestic Hotel has a variety of restaurants and bars specializing in different cuisines and diners are sure to have a remarkable dining experience. Function rooms are also available for memorable weddings and successful corporate events. Swimming pool and outdoor whirlpool, tennis court, Health Club and Spa, LifeSpan Reflexology and gym facilities are perfect for recreational and fitness activities.</p>
 
-Guests are guaranteed of a wonderful experience of comfort, luxury and impeccable service in every visit to Majestic Hotel. Experience the world-renowned Majestic Service from the efficient and courteous staff of Majestic Hotel Philippines.</p>
+<p>Guests are guaranteed of a wonderful experience of comfort, luxury and impeccable service in every visit to Majestic Hotel. Experience the world-renowned Majestic Service from the efficient and courteous staff of Majestic Hotel Philippines.</p>
 
 
 <button class="button">SEE MORE</button>
 
+</div>
+
+<div class="section-c-2">
+
+<div class="big-left"></div>
+<div class="top-right"></div>
+<div class="bottom-right"></div>
+
+
+
+
+
+</div>
+
+</div>
+
 
 </section>
 
+
+
 <section id="section-d"><!-- Majestic GUEST EXPERIENCE -->
 
-<div class="background-image"></div>
+<div class="opacity-layer">
 
 
 <h1>MAJESTIC GUEST EXPERIENCE</h1>
 
-<p>Great hotel for city break</p>
+<div class="star-rating">
+
+<div><i class="fas fa-star fa-2x"></i>
+
+</div>
+<div><i class="fas fa-star fa-2x"></i>
+
+</div>
+<div><i class="fas fa-star fa-2x"></i>
+
+</div>
+
+<div><i class="fas fa-star fa-2x"></i>
+
+</div>
+<div><i class="fas fa-star fa-2x"></i>
+
+</div>
+
+
+
+</div>
+
+<div id="reviews">
+
+<p>"5 star experience with Majestic Rooms"</p>
 
 <p>"We spent 2 days here between Christmas and New Year and completely enjoyed it. From a nice well equipped room, excellent breakfast and room service food and a fun pool for the kids. We found the staff here to be very helpful and friendly. As a bonus we appreciated the inclusion of valet parking with our room rate. Close to lots of activities in Makati, Manila and Pasay it is really a great location. This is a great place to have a city get away!" 
 </p>
@@ -350,10 +462,12 @@ Guests are guaranteed of a wonderful experience of comfort, luxury and impeccabl
 
 <p>December 2017, traveled as a couple</p>
 
+</div>
+
 <button class="button book-button">BOOK A ROOM</button>
 
 
-
+</div>s
 </section>
 
 
@@ -361,7 +475,7 @@ Guests are guaranteed of a wonderful experience of comfort, luxury and impeccabl
 
 <section id="section-e"><!-- MANILA ACTIVITIES -->
 	
-<h1>MANILA ACTIVITIES</h1>
+<h1>UPCOMING ACTIVITIES</h1>
 
 <hr>
 
