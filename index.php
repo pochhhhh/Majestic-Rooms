@@ -2,19 +2,15 @@
 
 <html lang="en">
 
-
 <head>
 
 <title>Majestic Rooms</title>
 
-
-<link rel="stylesheet" href="./style.css" type="text/css">
+<link rel="stylesheet" href="style.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Noticia+Text" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
-
 
 
 <!-- Latest compiled and minified CSS -->
@@ -31,65 +27,13 @@
 
 <!-- Header showcase -->
 
+<?php require("require/header.php");?>
 
-<header>
-
-<section id="navbar">
-	
-	<!-- Insert Bootstrap navbar here -->
-	
-	
-	
-	<nav class="navbar navbar-fixed-top navbar-inverse">
-	
-	<div class="container-fluid">
-	
-	<div class="navbar-header">
-	
-
-	
-	<a href="#" class="navbar-left"><img src="./images/logo.png"></a>
-	
-
-	
-	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
-	
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	
-	</button>
-
-	</div>
-	
-	<div class="collapse navbar-collapse" id="menu">
-	
-	<ul class="nav navbar-nav navbar-right">
-	
-	<li><a href="#">Test</a></li>
-	<li><a href="#">Test</a></li>
-	<li><a href="#">Test</a></li>
-	
-	</ul>
-	
-	</div>
-	
-	</div>
-	
-	</nav>
-	
-	
-	
-</section>
-
-</header>
-
-<h1>Carrying on work from the office 13/03</h1>
-
+<h1>Carrying on work from home 13/03</h1>
 
 
 <section id="slideshow-gallery">
-	
+
 	<div><img src="https://static.pexels.com/photos/261102/pexels-photo-261102.jpeg" alt="gallery"></div>
 
 
@@ -102,14 +46,14 @@
 <!-- Main area -->
 
 <main id="main">
-	
+
 
 
 <section id="home-booking-form">
-	
+
 	<div class="grid-container">
 
-	
+
 <input class="grid-item" type="date" name="checkin">
 <input class="grid-item" type="date" name="checkout">
 <input class="grid-item" name="code">
@@ -120,11 +64,11 @@
 
 </div>
 
-<button type="button">BOOK A ROOM</button>
+<a href="booking.php"><button type="button">BOOK A ROOM</button></a>
 
 <hr>
 
-</section>	
+</section>
 
 <h1 class="be-a-majestic-member">BE A MAJESTIC MEMBER</h1>
 
@@ -133,7 +77,7 @@
 
 
 <section id="section-a"> <!-- BE A MAJESTIC MEMBER -->
-	
+
 
 <div class="section-a-img">
 
@@ -143,7 +87,7 @@
 
 
 <ul>
-	
+
 <li>Best Rate Guarantee</li>
 <li>20% Off on All Restaurants, Health Club & Spa Services, Laundry</li>
 <li>cheduled Shuttle Service to and from Intramuros, Mall of Asia and Robinsons Place Manila on Weekends</li>
@@ -167,7 +111,7 @@
 
 
 <section id="section-b"><!-- 5 STAR Majestic LUXURY EXPERIENCE + LI BOXES -->
-	
+
 <h1>5 STAR MAJESTIC LUXURY EXPERIENCE</h1>
 
 <hr>
@@ -178,7 +122,7 @@
 <li>
 
 <div class="card">
-	
+
 
 		<img alt="photo" src="https://static.pexels.com/photos/6534/holiday-vacation-hotel-luxury.jpg">
 
@@ -193,7 +137,7 @@
 		<h4>Promo code: 234414</h4>
 
 	<ul>
-		
+
 	<li>Buffet Breakfast for 2 persons</li>
 	<li>Unlimited Internet Wi-Fi access</li>
 	<li>Use of the Health Club and Spa facilities and swimming pool</li>
@@ -209,7 +153,7 @@
 <li>
 
 <div class="card">
-	
+
 
 		<img alt="photo" src="https://static.pexels.com/photos/6534/holiday-vacation-hotel-luxury.jpg">
 
@@ -224,7 +168,7 @@
 		<h4>Promo code: 234414</h4>
 
 	<ul>
-		
+
 	<li>Buffet Breakfast for 2 persons</li>
 	<li>Unlimited Internet Wi-Fi access</li>
 	<li>Use of the Health Club and Spa facilities and swimming pool</li>
@@ -240,7 +184,7 @@
 <li>
 
 <div class="card">
-	
+
 
 		<img alt="photo" src="https://static.pexels.com/photos/6534/holiday-vacation-hotel-luxury.jpg">
 
@@ -255,7 +199,7 @@
 		<h4>Promo code: 234414</h4>
 
 	<ul>
-		
+
 	<li>Buffet Breakfast for 2 persons</li>
 	<li>Unlimited Internet Wi-Fi access</li>
 	<li>Use of the Health Club and Spa facilities and swimming pool</li>
@@ -271,7 +215,7 @@
 <li>
 
 <div class="card">
-	
+
 
 		<img alt="photo" src="https://static.pexels.com/photos/6534/holiday-vacation-hotel-luxury.jpg">
 
@@ -286,7 +230,7 @@
 		<h4>Promo code: 234414</h4>
 
 	<ul>
-		
+
 	<li>Buffet Breakfast for 2 persons</li>
 	<li>Unlimited Internet Wi-Fi access</li>
 	<li>Use of the Health Club and Spa facilities and swimming pool</li>
@@ -302,7 +246,7 @@
 <li>
 
 <div class="card">
-	
+
 
 		<img alt="photo" src="https://static.pexels.com/photos/6534/holiday-vacation-hotel-luxury.jpg">
 
@@ -317,7 +261,7 @@
 		<h4>Promo code: 234414</h4>
 
 	<ul>
-		
+
 	<li>Buffet Breakfast for 2 persons</li>
 	<li>Unlimited Internet Wi-Fi access</li>
 	<li>Use of the Health Club and Spa facilities and swimming pool</li>
@@ -333,7 +277,7 @@
 <li>
 
 <div class="card">
-	
+
 
 		<img alt="photo" src="https://static.pexels.com/photos/6534/holiday-vacation-hotel-luxury.jpg">
 
@@ -348,7 +292,7 @@
 		<h4>Promo code: 234414</h4>
 
 	<ul>
-		
+
 	<li>Buffet Breakfast for 2 persons</li>
 	<li>Unlimited Internet Wi-Fi access</li>
 	<li>Use of the Health Club and Spa facilities and swimming pool</li>
@@ -375,7 +319,7 @@
 </section>
 
 <section id="section-c"><!-- THE MAJESTIC EXPERIENCE -->
-	
+
 <h1>THE MAJESTIC EXPERIENCE</h1>
 
 
@@ -448,7 +392,7 @@ Magnificent Golden Sunset of the Manila Bay</h4>
 
 <p>"5 star experience with Majestic Rooms"</p>
 
-<p>"We spent 2 days here between Christmas and New Year and completely enjoyed it. From a nice well equipped room, excellent breakfast and room service food and a fun pool for the kids. We found the staff here to be very helpful and friendly. As a bonus we appreciated the inclusion of valet parking with our room rate. Close to lots of activities in Makati, Manila and Pasay it is really a great location. This is a great place to have a city get away!" 
+<p>"We spent 2 days here between Christmas and New Year and completely enjoyed it. From a nice well equipped room, excellent breakfast and room service food and a fun pool for the kids. We found the staff here to be very helpful and friendly. As a bonus we appreciated the inclusion of valet parking with our room rate. Close to lots of activities in Makati, Manila and Pasay it is really a great location. This is a great place to have a city get away!"
 </p>
 
 <p>December 2017, traveled with family </p>
@@ -456,7 +400,7 @@ Magnificent Golden Sunset of the Manila Bay</h4>
 
 <p>"Christmas"</p>
 
-<p>"My second stay at this hotel. Everything is great. Will be going back in 10 days. I really recommend. Close to Robinson mall. Nice bar on the 27th floor and great pool. Food was fantastic. I enjoyed everything. The staff were very friendly and polite" 
+<p>"My second stay at this hotel. Everything is great. Will be going back in 10 days. I really recommend. Close to Robinson mall. Nice bar on the 27th floor and great pool. Food was fantastic. I enjoyed everything. The staff were very friendly and polite"
 
 </p>
 
@@ -474,7 +418,7 @@ Magnificent Golden Sunset of the Manila Bay</h4>
 
 
 <section id="section-e"><!-- MANILA ACTIVITIES -->
-	
+
 <h1>UPCOMING ACTIVITIES</h1>
 
 <hr>
@@ -482,73 +426,7 @@ Magnificent Golden Sunset of the Manila Bay</h4>
 
 </section>
 
-<footer>
-	
-	<h3>Contact Us</h3>
-
-	<hr>
-
-	<h5>MAJESTIC ROOMS PHILIPPINES</h5>
-
-	<p>Roxas Boulevard cor. Dr. J. Quintos St.,</p>
-
-	<p>Manila, Philippines 1000</p>
-
-	<h5>Phone : </h5><h5><p><a href="#">(632) 528-3000</a>  <span style="color:white;"> or </span> <a href="#">(632) 305-3000</a></p></h5>
-
-	<h5> Fax </h5>
-
-	<h5><p><a href="#">(632) 526-2255</a></p></h5>
-
-	<h5>Careers: <p><a href="#">APPLY NOW</a></p></h5>
-
-
-<div class="social-media-buttons">
-	
-<h5>Get connected:</h5>
-
-<a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
-<a href="#"><i class="fab fa-google-plus-square fa-2x"></i></a>
-
-<a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
-
-<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-
-<a href="#"><i class="fab fa-pinterest-square fa-2x"></i></a>
-
-
-
-
-
-
-
-
-
-</div>
-
-<h3>Quick Message</h3>
-
-<hr>
-
-<div>
-
-<input type="text" placeholder="Your name">
-<input type="email" placeholder="Your email">
-<input type="text" placeholder="Your comment">
-
-</div>
-
-<div class="random"><button class="footer-submit" type="button">SUBMIT</button></div>
-
-
-<div class="copyright">
-	
-<p>© MAJESTIC ROOMS. ALL RIGHTS RESERVED 2018</p>
-
-</div>
-
-
-</footer>
+<?php require("require/footer.php");?>
 
 </main>
 

@@ -10,7 +10,7 @@
 <title>Majestic Rooms</title>
 
 
-<link rel="stylesheet" href="../style.css" type="text/css">
+<link rel="stylesheet" href="style.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Noticia+Text" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -31,53 +31,10 @@
 
 <body>
 
-<!-- Header showcase -->
 
 
-<header>
+<?php require("require/header.php");?>
 
-<section id="navbar">
-	
-	<!-- Insert Bootstrap navbar here -->
-	
-	
-	
-	<nav class="navbar navbar-fixed-top navbar-default">
-	
-	<div class="container-fluid">
-	
-	<div class="navbar-header">
-	
-	<a class="navbar-brand" href="#">Majestic Rooms</a>
-	
-	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
-	
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	
-	</button>
-
-	</div>
-	
-	<div class="collapse navbar-collapse" id="menu">
-	
-	<ul class="nav navbar-nav navbar-right">
-	
-	<li><a href="#">Test</a></li>
-	<li><a href="#">Test</a></li>
-	<li><a href="#">Test</a></li>
-	
-	</ul>
-	
-	</div>
-	
-	</div>
-	
-	</nav>
-	
-	
-</section>
 
 
 <h1>Working from the office - 07/03</h1>
@@ -114,7 +71,7 @@ Confirmation</p>
 <div class="room-option">
 
 <div class="room-option-image">
-<img src="../images/room1.jpg">
+<img src="images/room1.jpg">
 </div>
 
 <div class="room-option-caption">
@@ -182,82 +139,9 @@ Confirmation</p>
 <a href="#"><h5 class="booking-tc">Terms and Conditions</h5></a>
 
 
-
-
 </section>
 
-<footer> <!-- require("../footer.php");-->
-
-	
-	<h3>Contact Us</h3>
-
-	<hr>
-
-	<h5>MAJESTIC ROOMS PHILIPPINES</h5>
-
-	<p>Roxas Boulevard cor. Dr. J. Quintos St.,</p>
-
-	<p>Manila, Philippines 1000</p>
-
-	<h5>Phone : </h5><h5><p><a href="#">(632) 528-3000</a>  <span style="color:white;"> or </span> <a href="#">(632) 305-3000</a></p></h5>
-
-	<h5> Fax </h5>
-
-	<h5><p><a href="#">(632) 526-2255</a></p></h5>
-
-	<h5>Careers: <p><a href="#">APPLY NOW</a></p></h5>
-
-
-<div class="social-media-buttons">
-	
-<h5>Get connected:</h5>
-
-<a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
-<a href="#"><i class="fab fa-google-plus-square fa-2x"></i></a>
-
-<a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
-
-<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-
-<a href="#"><i class="fab fa-pinterest-square fa-2x"></i></a>
-
-
-
-
-
-
-
-
-
-</div>
-
-<h3>Quick Message</h3>
-
-<hr>
-
-<div>
-
-<input type="text" placeholder="Your name">
-<input type="email" placeholder="Your email">
-<input type="text" placeholder="Your comment">
-
-</div>
-
-<div class="random"><button class="footer-submit" type="button">SUBMIT</button></div>
-
-
-<div class="copyright">
-	
-<p>© MAJESTIC ROOMS. ALL RIGHTS RESERVED 2018</p>
-
-</div>
-
-
-
-
-
-</footer>
-
+<?php require("require/footer.php");?>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
